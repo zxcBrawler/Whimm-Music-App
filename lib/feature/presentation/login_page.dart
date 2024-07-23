@@ -15,7 +15,6 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
-          // Wrap the Column with SingleChildScrollView
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Column(
@@ -44,7 +43,7 @@ class _LoginPageState extends State<LoginPage> {
                   ],
                 ),
                 const SizedBox(height: 70),
-                Text(
+                const Text(
                   "Login",
                   style: headersTextStyle,
                 ),
@@ -60,16 +59,16 @@ class _LoginPageState extends State<LoginPage> {
                           child: TextFormField(
                             cursorColor: AppColors.primaryColor,
                             style: basicTextStyle,
-                            decoration: InputDecoration(
+                            decoration: const InputDecoration(
                                 focusColor: AppColors.primaryColor,
                                 border: InputBorder.none,
                                 hintText: 'Username',
                                 hintStyle: hintTextStyle,
-                                prefixIcon: const Icon(
+                                prefixIcon: Icon(
                                   Icons.person,
                                   color: AppColors.primaryColor,
                                 ),
-                                contentPadding: const EdgeInsets.symmetric(
+                                contentPadding: EdgeInsets.symmetric(
                                     horizontal: 20, vertical: 15)),
                           )),
                       const SizedBox(height: 20),
@@ -82,16 +81,16 @@ class _LoginPageState extends State<LoginPage> {
                             cursorColor: AppColors.primaryColor,
                             style: basicTextStyle,
                             obscureText: true,
-                            decoration: InputDecoration(
+                            decoration: const InputDecoration(
                                 focusColor: AppColors.primaryColor,
                                 border: InputBorder.none,
                                 hintText: 'Password',
                                 hintStyle: hintTextStyle,
-                                prefixIcon: const Icon(
+                                prefixIcon: Icon(
                                   Icons.password_rounded,
                                   color: AppColors.primaryColor,
                                 ),
-                                contentPadding: const EdgeInsets.symmetric(
+                                contentPadding: EdgeInsets.symmetric(
                                     horizontal: 20, vertical: 15)),
                           )),
                       const SizedBox(height: 46),
@@ -104,8 +103,8 @@ class _LoginPageState extends State<LoginPage> {
                                   backgroundColor: AppColors.primaryColor,
                                   shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(8))),
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
+                              child: const Padding(
+                                padding: EdgeInsets.all(8.0),
                                 child: Text(
                                   "Login",
                                   style: buttonsTextStyle,
