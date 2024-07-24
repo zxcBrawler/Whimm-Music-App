@@ -6,4 +6,5 @@ class AppColors {
   static const Color grey450 = Color.fromARGB(255, 42, 42, 42);
   static const Color textColorMain = Color.fromARGB(255, 255, 255, 255);
   static const Color hintColorMain = Color.fromARGB(70, 255, 255, 255);
+  static const Color blackTransparent = Color.fromARGB(150, 0, 0, 0);
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:music_app_flutter/config/dark_theme.dart';
-import 'package:music_app_flutter/feature/presentation/login_page.dart';
+import 'package:music_app_flutter/feature/presentation/ui/home_page.dart';
+import 'package:music_app_flutter/feature/presentation/ui/login_page.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -10,7 +11,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: darkAppTheme,
-      home: const LoginPage(),
+      home: const HomePage(),
     );
   }
 }

@@ -33,8 +33,8 @@ class _RegisterPageState extends State<RegisterPage> {
               const SizedBox(
                 height: 65,
               ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20),
                 child: Text(
                   "Create new account",
                   style: headersTextStyle,
@@ -54,16 +54,16 @@ class _RegisterPageState extends State<RegisterPage> {
                           child: TextFormField(
                             cursorColor: AppColors.primaryColor,
                             style: basicTextStyle,
-                            decoration: InputDecoration(
+                            decoration: const InputDecoration(
                                 focusColor: AppColors.primaryColor,
                                 border: InputBorder.none,
                                 hintText: 'Username',
                                 hintStyle: hintTextStyle,
-                                prefixIcon: const Icon(
+                                prefixIcon: Icon(
                                   Icons.person,
                                   color: AppColors.primaryColor,
                                 ),
-                                contentPadding: const EdgeInsets.symmetric(
+                                contentPadding: EdgeInsets.symmetric(
                                     horizontal: 20, vertical: 15)),
                           )),
                       const SizedBox(height: 20),
@@ -75,16 +75,16 @@ class _RegisterPageState extends State<RegisterPage> {
                           child: TextFormField(
                             cursorColor: AppColors.primaryColor,
                             style: basicTextStyle,
-                            decoration: InputDecoration(
+                            decoration: const InputDecoration(
                                 focusColor: AppColors.primaryColor,
                                 border: InputBorder.none,
                                 hintText: 'Email',
                                 hintStyle: hintTextStyle,
-                                prefixIcon: const Icon(
+                                prefixIcon: Icon(
                                   Icons.email,
                                   color: AppColors.primaryColor,
                                 ),
-                                contentPadding: const EdgeInsets.symmetric(
+                                contentPadding: EdgeInsets.symmetric(
                                     horizontal: 20, vertical: 15)),
                           )),
                       const SizedBox(height: 20),
@@ -97,16 +97,16 @@ class _RegisterPageState extends State<RegisterPage> {
                             cursorColor: AppColors.primaryColor,
                             style: basicTextStyle,
                             obscureText: true,
-                            decoration: InputDecoration(
+                            decoration: const InputDecoration(
                                 focusColor: AppColors.primaryColor,
                                 border: InputBorder.none,
                                 hintText: 'Password',
                                 hintStyle: hintTextStyle,
-                                prefixIcon: const Icon(
+                                prefixIcon: Icon(
                                   Icons.password_rounded,
                                   color: AppColors.primaryColor,
                                 ),
-                                contentPadding: const EdgeInsets.symmetric(
+                                contentPadding: EdgeInsets.symmetric(
                                     horizontal: 20, vertical: 15)),
                           )),
                       const SizedBox(height: 20),
@@ -118,16 +118,16 @@ class _RegisterPageState extends State<RegisterPage> {
                           child: TextFormField(
                             cursorColor: AppColors.primaryColor,
                             style: basicTextStyle,
-                            decoration: InputDecoration(
+                            decoration: const InputDecoration(
                                 focusColor: AppColors.primaryColor,
                                 border: InputBorder.none,
                                 hintText: 'Confirm password',
                                 hintStyle: hintTextStyle,
-                                prefixIcon: const Icon(
+                                prefixIcon: Icon(
                                   Icons.password_rounded,
                                   color: AppColors.primaryColor,
                                 ),
-                                contentPadding: const EdgeInsets.symmetric(
+                                contentPadding: EdgeInsets.symmetric(
                                     horizontal: 20, vertical: 15)),
                           )),
                       const SizedBox(height: 46),
@@ -140,8 +140,8 @@ class _RegisterPageState extends State<RegisterPage> {
                                   backgroundColor: AppColors.primaryColor,
                                   shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(8))),
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
+                              child: const Padding(
+                                padding: EdgeInsets.all(8.0),
                                 child: Text(
                                   "Register",
                                   style: buttonsTextStyle,

@@ -123,7 +123,7 @@ class _LoginPageState extends State<LoginPage> {
                             Text("Don't have an account?",
                                 style: hintTextStyle.copyWith(fontSize: 16)),
                             TextButton(
-                              onPressed: () {},
+                              onPressed: () {}, 
                               child: Text(
                                 "Sign up",
                                 style: secondaryTextStyle.copyWith(
