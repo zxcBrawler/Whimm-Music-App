@@ -1,6 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:music_app_flutter/config/app_colors.dart';
 import 'package:music_app_flutter/config/dark_theme.dart';
 
@@ -40,21 +39,21 @@ class _HomePageState extends State<HomePage> {
                       IconButton(
                           onPressed: () {},
                           icon: const Icon(
-                            Icons.search,
+                            LucideIcons.search,
                             size: 25,
                             color: AppColors.textColorMain,
                           )),
                       IconButton(
                           onPressed: () {},
                           icon: const Icon(
-                            Icons.notifications,
+                            LucideIcons.bell,
                             size: 25,
                             color: AppColors.textColorMain,
                           )),
                       IconButton(
                           onPressed: () {},
                           icon: const Icon(
-                            Icons.history,
+                            LucideIcons.history,
                             size: 25,
                             color: AppColors.textColorMain,
                           ))
@@ -69,6 +68,14 @@ class _HomePageState extends State<HomePage> {
                         "Recently played",
                         style: headersTextStyle.copyWith(fontSize: 22),
                       ),
+                      const Spacer(),
+                      IconButton(
+                          onPressed: () {},
+                          icon: const Icon(
+                            LucideIcons.chevronRight,
+                            color: AppColors.textColorMain,
+                            size: 30,
+                          ))
                     ],
                   ),
                 ],
@@ -121,7 +128,7 @@ class _HomePageState extends State<HomePage> {
                   IconButton(
                       onPressed: () {},
                       icon: const Icon(
-                        Icons.chevron_right,
+                        LucideIcons.chevronRight,
                         color: AppColors.textColorMain,
                         size: 30,
                       ))

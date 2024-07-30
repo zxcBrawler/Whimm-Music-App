@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:music_app_flutter/config/app_colors.dart';
 import 'package:music_app_flutter/config/dark_theme.dart';
